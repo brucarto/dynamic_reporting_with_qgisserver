@@ -58,7 +58,7 @@ podman run -d --name qgis-server \
 ### Download the project file:
 ```bash
 cd /srv/qgis/data
-wget https://github.com/brucarto/dynamic_reporting_with_qgisserver/blob/ae083b57becd87345eab8d063832e0693089427c/collecto.qgz
+wget https://github.com/brucarto/dynamic_reporting_with_qgisserver/blob/f07e43afd80886a2c2c49a4b7ac8f2b9641284ad/collecto.qgz
 ```
 
 You can now create the template using the following WMS request:
