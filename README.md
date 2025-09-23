@@ -94,6 +94,16 @@ mkdir -p /srv/docker/django
 cd /srv/docker/django
 ```
 
+### Creating requirements.txt
+
+Create a new file named **`requirements.txt`** who will contain the Python libraries to install:
+
+```requirements.txt
+Django>=4.2,<5.0
+reportlab>=4.0.0
+requests>=2.31.0
+```
+
 ### Creating Dockerfiles
 
 The Docker container file will specify the tools to be installed.  
