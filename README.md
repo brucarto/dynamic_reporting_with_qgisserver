@@ -252,4 +252,4 @@ You can connect your Django framework with **Apache** or **NGINX** to create a f
 
 ## Contact
 
-For any questions or inquiries, please contact us at **mobigs@sprb.brussels**.
+For any questions or inquiries, please contact us at **mobigis@sprb.brussels**.
