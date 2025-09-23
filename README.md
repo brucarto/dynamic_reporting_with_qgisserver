@@ -125,7 +125,7 @@ WORKDIR /app
 # Install Python dependencies globally in the image
 COPY requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir --upgrade pip setuptools wheel \
- && pip install --no-cache-dir -r /tmp/requirements.txt
+ && pip install --no-cache-dir -r /srv/docker/django/requirements.txt
 
 # Switch to unprivileged user by default
 USER appuser
